@@ -1,0 +1,9 @@
+# GPU build of PyTorch (CUDA 12.8). Install with:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+#   pip install -r requirements.txt
+# On Colab, torch is already installed: skip the first line.
+torch
+torchvision
+numpy
+matplotlib
+jupyter

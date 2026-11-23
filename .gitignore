@@ -1,0 +1,18 @@
+# Python environment (each person makes their own)
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Dataset (downloads itself with torchvision, about 340 MB)
+data/
+
+# Trained weights (too big for git; share via Drive if needed)
+checkpoints/
+*.pt
+*.pth
+
+# Editor settings (contain local paths)
+.vscode/
+
+# Private team planning docs (keep local only)
+docs/Project_Plan_Quantizing_ResNet_vs_ViT.pdf
