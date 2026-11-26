@@ -16,3 +16,4 @@ checkpoints/
 
 # Private team planning docs (keep local only)
 docs/Project_Plan_Quantizing_ResNet_vs_ViT.pdf
+"data/" 

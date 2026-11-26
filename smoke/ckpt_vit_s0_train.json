@@ -1,0 +1,28 @@
+{
+ "val": 30.1,
+ "test": 30.52,
+ "params": 2693578,
+ "args": {
+  "model": "vit",
+  "epochs": 1,
+  "batch": 256,
+  "opt": "adamw",
+  "lr": 0.001,
+  "wd": 0.05,
+  "warmup": 5,
+  "smoothing": 0.1,
+  "randaug": true,
+  "seed": 0,
+  "data": "data",
+  "out": "smoke\\ckpt_vit_s0.pt"
+ },
+ "log": [
+  {
+   "epoch": 1,
+   "loss": 2.1218762043544226,
+   "lr": 0.00020114285714285715,
+   "sec": 178.2821545600891,
+   "val": 30.1
+  }
+ ]
+}
